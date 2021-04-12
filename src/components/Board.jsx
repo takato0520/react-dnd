@@ -1,5 +1,5 @@
 import React from 'react'
-import Square from './Square'
+// import Square from './Square'
 import Knight from './Knight'
 import BoardSquare from './BoardSquare'
 // import { moveKnight, canMoveKnight } from '../Game'
@@ -21,9 +21,9 @@ const squareStyle = {
 const renderSquare = (i, [knightX, knightY]) => {
     const x = i % 8
     const y = Math.floor(i / 8)
-    const black = (x + y) % 2 === 1
-    const isKnightHere = knightX === x && knightY === y
-    const piece = isKnightHere ? <Knight /> : null
+    // const isKnightHere = knightX === x && knightY === y
+    // const black = (x + y) % 2 === 1
+    // const piece = isKnightHere ? <Knight /> : null
 
     return (
         <div
